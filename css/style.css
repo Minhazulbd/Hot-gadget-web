@@ -1,0 +1,75 @@
+.btn-primari{
+    background-color: hwb(43 9% 11%);
+
+}
+.btn-primari:hover{
+    background-color: #bca365;
+}
+
+
+
+
+.navbar-brand img{
+    width: 150px;
+    height: 80px;
+    object-fit: contain;
+}
+.carousel-indicators{
+    bottom: -45px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 30px;
+    height: 7px;
+    padding: 0;
+    border: 0;
+    background-color: #ffb700 !important;
+    border-radius: 5px;
+}
+.carousel-indicators .active{
+    width: 50px;
+}
+.phone-see-all{
+    text-decoration: none;
+    color: #ffb700;
+}
+.card{
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.card:hover{
+    box-shadow:   rgba(110, 103, 103, 0.16) 0px 3px 6px, rgba(114, 108, 108, 0.23) 0px 3px 6px;
+
+}
+.categori span{
+    display: block;
+    height: 5px;
+    width: 150px;
+    margin: auto;
+    background-color: #ffb700;
+    border-radius: 10px;
+
+
+}
+/* .category-box{
+    box-shadow:   rgba(110, 103, 103, 0.16) 0px 3px 6px, rgba(114, 108, 108, 0.23) 0px 3px 6px;
+    padding: 25px;
+
+} */
+footer li{
+    list-style: none;
+
+}
+footer li a{
+    display: block;
+    text-decoration: none;
+    color:rgba(211, 168, 13, 0.753);
+    text-align: center;
+font-size: 20px;
+
+}
+footer li a:hover{
+    color: #3e11e2;
+}
+h3{
+    text-align: center;
+}
